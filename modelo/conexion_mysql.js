@@ -1,6 +1,7 @@
 // crea la conexion a MySQL
-var mysql = require('mysql');
-//var mysql = require('promise-mysql');
+//var mysql = require('mysql');
+// npm install promise-mysql
+var mysql = require('promise-mysql');
 
 
 var con = mysql.createConnection({
