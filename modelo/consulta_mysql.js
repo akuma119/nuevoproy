@@ -9,14 +9,7 @@ function hacer_consulta() {
     }
   );
 };
-function consultar() {
-  hacer_consulta().then((res) => {
-    //console.log(res)
-    return res
-  })
-}
 
 // exporto la funcion de hacer consulta para
 // usarla en el archivo app.js
 exports.hacer_consulta = hacer_consulta;
-exports.consultar = consultar
